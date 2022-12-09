@@ -8,9 +8,6 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<audio id="player" autoplay loop>
-  <source src="music.mp3" type="audio/mpeg">
-</audio>
 <body class="text-center">
   <div id="page">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
@@ -43,7 +40,11 @@
 
   <canvas id="reveal-effect"></canvas>
 
-
+  <div id="mute"></div>
+  
+  <audio id="player" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
 
 </body>
 <!-- partial -->
