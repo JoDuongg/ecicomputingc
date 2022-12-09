@@ -9,13 +9,17 @@
 <body>
 <!-- partial:index.partial.html -->
 <body class="text-center">
+  <audio id="player" autoplay loop>
+		<source src="music.mp3" type="audio/mpeg">
+	</audio>
+
   <div id="page">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">Room 113</h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="./index.html">Home</a>
             <a class="nav-link" href="./index2.html" target="_blank">Dragon Sneeze Game</a>
             <a class="nav-link" href="./index3.html" target="_blank">City 3D view</a>
           </nav>
@@ -40,9 +44,7 @@
 
   <canvas id="reveal-effect"></canvas>
 
-	<audio id="player" autoplay loop>
-		<source src="music.mp3" type="audio/mpeg">
-	</audio>
+
 
 </body>
 <!-- partial -->
